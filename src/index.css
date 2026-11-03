@@ -1,0 +1,60 @@
+/* Global styles. Replaces the default Vite stylesheet. */
+:root {
+  --bg: #0a0e14;
+  --surface: #131a23;
+  --field: #0f151d;
+  --line: #2a3442;
+  --ink: #f2f4f7;
+  --muted: #9aa6b5;
+  --accent: #ffcc00;
+  --accent-strong: #ffd94d;
+  --accent-ink: #0a0e14;
+  --danger: #ef7d77;
+  --ok: #3ddc97;
+  --warn: #f0a95c;
+  --info: #3da9fc;
+  --font-body: Calibri, 'Segoe UI', Arial, Helvetica, sans-serif;
+  --font-head: Cambria, Georgia, 'Times New Roman', serif;
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1,
+.big,
+.ring-number strong,
+.lockup-name,
+.tagline {
+  font-family: var(--font-head);
+}
+
+[hidden] {
+  display: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="SafeTrip Rewards logo">
+  <rect width="64" height="64" rx="16" fill="#4FD1DC"/>
+  <path d="M32 11 L49 17.5 V30 C49 40.5 42 48 32 53 C22 48 15 40.5 15 30 V17.5 Z" fill="#0E1624"/>
+  <path d="M24.5 31.5 L30 37 L40.5 25.5" fill="none" stroke="#4FD1DC" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
